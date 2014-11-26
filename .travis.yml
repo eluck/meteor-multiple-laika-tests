@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "0.10"
+before_install:
+  - "curl -L https://raw.githubusercontent.com/eluck/meteor-multiple-laika-tests/master/meteor-project/tests/travis_before_install.sh -rRA | /bin/sh"
+services:
+  - mongodb
+script:
+  - "curl -L https://raw.githubusercontent.com/eluck/meteor-multiple-laika-tests/master/meteor-project/tests/travis_script.sh -rRA | /bin/sh"
+

@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cd tests
-laika integration-testing
-laika performance-testing
+cd meteor-project/tests
+laika integration-testing -t 10000
+laika performance-testing -t 10000
