@@ -1,5 +1,7 @@
 #!/bin/sh
 
+pwd
+echo switching to meteor-project
 cd meteor-project
-laika tests/integration-testing -t 10000
-laika tests/performance-testing -t 10000
+laika tests/integration-tests -t 10000
+laika tests/performance-tests -t 10000
