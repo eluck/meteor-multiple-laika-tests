@@ -2,7 +2,7 @@
 should = require('should')
 sinon = require('sinon')
 global._ = require('underscore')
-Megaclass = require('../../coffeeSource.coffee')
+Megaclass = require('../../coffeeSource')
 
 
 describe 'coffeeSource.coffee: Megaclass', ->
