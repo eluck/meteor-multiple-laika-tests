@@ -12,4 +12,5 @@ testsResults = [
 testsResults = testsResults.map (result) -> result.code
 
 console.log 'testResults:', testsResults
+exit 1
 exit Number(testsResults.some (result) -> result)
