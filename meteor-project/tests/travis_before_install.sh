@@ -4,7 +4,7 @@
 curl https://install.meteor.com | /bin/sh
 
 #install global npm dependencies
-npm install -g laika coffee-script eluck/shelljs
+npm install -g laika coffee-script eluck/shelljs grunt-cli
 
 #install unit-testing npm dependencies
 cd meteor-project/tests/unit-tests
