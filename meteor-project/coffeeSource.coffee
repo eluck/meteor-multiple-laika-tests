@@ -4,4 +4,4 @@ class @Megaclass
 
 
 if module?.exports
-  module.exports = Megaclass
+  module.exports = @Megaclass
