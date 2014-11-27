@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - "0.10"
 before_install:
-  - "curl -L https://raw.githubusercontent.com/eluck/meteor-multiple-laika-tests/master/meteor-project/tests/travis_before_install.sh -rRA | /bin/sh"
+  - "meteor-project/tests/travis_before_install.sh"
 services:
   - mongodb
 script:
-  - "wget https://raw.githubusercontent.com/eluck/meteor-multiple-laika-tests/master/meteor-project/tests/travis_script.coffee && shjs travis_script.coffee"
+  - "shjs meteor-project/tests/travis_script.coffee"
 
