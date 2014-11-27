@@ -12,6 +12,7 @@ testsResults = [
 testsResults = testsResults.map (result) -> result.code
 
 console.log 'testResults:', testsResults
+throw 'build failed'
 process.exit(1)
 exit 1
 exit Number(testsResults.some (result) -> result)
