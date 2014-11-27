@@ -6,8 +6,8 @@ suite('integration-test', function() {
       emit('done');
     });
 
-    server.once('docs', function() {
-      assert.equal(1, 1);
+    server.once('done', function() {
+      assert.equal(0, 1);
       done();
     });
   });
